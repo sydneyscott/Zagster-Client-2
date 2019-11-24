@@ -19,12 +19,12 @@ var chart = new Chart(ctx, {
 
     // The data for our dataset
     data: {
-        labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+        labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July','August','September','November','December'],
         datasets: [{
             label: 'Rides By Month 2017',
             backgroundColor: 'rgb(255, 99, 132)',
             borderColor: 'rgb(255, 99, 132)',
-            data: [0, 10, 5, 2, 20, 30, 45]
+            data: [20, 31, 79, 88, 156, 301, 504, 287, 401, 353, 113, 79 ]
         }]
     },
 
