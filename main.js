@@ -34,6 +34,12 @@ var data = {"2016": [{"9":220}, {"10":141}, {"11":89}, {"12":16}]}
 var year_list = data[2016]
 console.log('year list is '+ year_list)
 
+console.log(year_list[0][9])
+console.log(year_list[1][10])
+console.log(year_list[2][11])
+console.log(year_list[3][12])
+
+
 //IMPORTANT GRAPH
 function updateView() {
   $.getJSON(BASE_URL + "/rides/count" , updateRideCount)
