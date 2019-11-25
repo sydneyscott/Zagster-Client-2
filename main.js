@@ -15,8 +15,17 @@ function add(num1, num2){
    console.log("the answer is: " + answer); 
   return answer }
 
+function greeter(name){
+  alert("welcome to " + name + " data visualization")
+}
+
+greeter("Sydney Scott's")
+
+//var person = { name: "Sydney",}
 
 
+
+//IMPORTANT GRAPH
 function updateView() {
   $.getJSON(BASE_URL + "/rides/count" , updateRideCount)
 }
