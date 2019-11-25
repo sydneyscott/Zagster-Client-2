@@ -26,7 +26,13 @@ console.log ("My name is " + person.name)
 console.log("My age is "+ person.age)
 console.log("My car model is " + person.car.model)
 
+if (person.age > 50){
+  alert("You're old!")
+}
 
+var data = {"2016": [{"9":220}, {"10":141}, {"11":89}, {"12":16}]}
+var year_list = data[2016]
+console.log('year list is '+ year_list)
 
 //IMPORTANT GRAPH
 function updateView() {
