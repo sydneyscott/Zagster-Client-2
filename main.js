@@ -21,7 +21,10 @@ function greeter(name){
 
 greeter("Sydney Scott's")
 
-//var person = { name: "Sydney",}
+var person = { name: "Sydney", age: 18, car: {model: "Volvo, year: 2004"}} 
+console.log ("My name is " + person.name) 
+console.log("My age is "+ person.age)
+console.log("My car model is " + person.car.model)
 
 
 
