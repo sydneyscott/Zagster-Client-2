@@ -24,7 +24,7 @@ var chart = new Chart(ctx, {
             label: 'Rides By Month 2017',
             backgroundColor: 'rgb(255, 99, 132)',
             borderColor: 'rgb(255, 99, 132)',
-            data: [20, 31, 79, 88, 156, 301, 504, 287, 401, 353, 113, 79 ]
+            data: [20, 31, 79, 88, 156, 301, 405, 287, 401, 353, 113, 79 ]
         }]
     },
 
