@@ -55,14 +55,14 @@ function perYear(data){
 
 //greeter("Sydney Scott's")
 
-//var person = { name: "Sydney", age: 18, car: {model: "Volvo, year: 2004"}} 
-//console.log ("My name is " + person.name) 
-//console.log("My age is "+ person.age)
-//console.log("My car model is " + person.car.model)
+var person = { name: "Sydney", age: 18, car: {model: "Volvo, year: 2004"}} 
+console.log ("My name is " + person.name) 
+console.log("My age is "+ person.age)
+console.log("My car model is " + person.car.model)
 
-//if (person.age > 50){
-  //alert("You're old!")
-//}
+if (person.age > 17){
+alert("OK BOOMER")
+}
 
 //var data = {"2016": [{"9":220}, {"10":141}, {"11":89}, {"12":16}]}
 //var year_list = data[2016]
