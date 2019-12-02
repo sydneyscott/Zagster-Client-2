@@ -42,11 +42,9 @@ function updateView() {
 
 //If you type https://zagster-service.herokuapp.com/rides/count/per_month in your web browser, you'll see this data
 
-// {"2016":[{"9":220},{"10":141},{"11":89},{"12":16}],
+//{"2017":[{"1":20},{"2":31},{"3":79},{"4":88},{"5":156},{"6":301},{"7":405},{"8":187},{"9":401},{"10":353},{"11":113},{"12":79}}
 
-// "2017":[{"1":20},{"2":31},{"3":79},{"4":88},{"5":156},{"6":301},{"7":405},{"8":187},{"9":401},{"10":353},{"11":113},{"12":79}],
 
-// "2018":[{"1":94},{"2":83},{"3":154},{"4":1216},{"5":2400},{"6":1756},{"7":2748},{"8":1912},{"9":3648},{"10":2404}]}
 
 
 
@@ -60,9 +58,9 @@ function perYear(data) {
 
 
 
-    // data2016 = [{"9":220},{"10":141},{"11":89},{"12":16}]
+//{"2017":[{"1":20},{"2":31},{"3":79},{"4":88},{"5":156},{"6":301},{"7":405},{"8":187},{"9":401},{"10":353},{"11":113},{"12":79}}
 
-    var data2016 = data[2016]  //extract the information associated with the key "2016" and put this info in a variable called data2016
+    var data2017 = data[2017]  //extract the information associated with the key "2016" and put this info in a variable called data2016
 
 
 
@@ -72,25 +70,41 @@ function perYear(data) {
 
     //result should be 220 
 
-    console.log(data2016[0][9]) //print daya to the console to make sure we did it right
+    console.log(data2017[0][1]) //print daya to the console to make sure we did it right
+    my_data.push(data2017[0][1]) //add the data to the my_data array 
 
-    my_data.push(data2016[0][9]) //add the data to the my_data array 
+    console.log(data2017[1][2])  //looks at the one-ith array element {"2":31} extract data for key 10
+    my_data.push(data2017[1][2])  //add the data to the my_data array 
 
-    console.log(data2016[1][10])  //looks at the one-ith array element {"10":141} extract data for key 10
+    console.log(data2017[2][3]) //print daya to the console to make sure we did it right
+    my_data.push(data2017[2][3]) //add the data to the my_data array 
 
-    my_data.push(data2016[1][10])  //add the data to the my_data array 
+    console.log(data2017[3][4])  //looks at the one-ith array element {"4":88} extract data for key 10
+    my_data.push(data2017[3][4])  //add the data to the my_data array 
 
-    //keep going to get all data points
+    console.log(data2017[4][5]) //print daya to the console to make sure we did it right
+    my_data.push(data2017[4][5]) //add the data to the my_data array 
 
+    console.log(data2017[5][6])  //looks at the one-ith array element {"2":31} extract data for key 10
+    my_data.push(data2017[5][6])  //add the data to the my_data array 
 
+    console.log(data2017[6][7]) //print daya to the console to make sure we did it right
+    my_data.push(data2017[6][7]) //add the data to the my_data array 
 
-   
+    console.log(data2017[7][8])  //looks at the one-ith array element {"4":88} extract data for key 10
+    my_data.push(data2017[7][8])  //add the data to the my_data array 
 
-    //challenge - use a loop to extract the data
+    console.log(data2017[8][9]) //print daya to the console to make sure we did it right
+    my_data.push(data2017[8][9]) //add the data to the my_data array 
 
-    //challenge extract the keys from the JSON data instead of manually typing them into the chart
+    console.log(data2017[9][10])  //looks at the one-ith array element {"2":31} extract data for key 10
+    my_data.push(data2017[9][10])  //add the data to the my_data array 
 
-     
+    console.log(data2017[10][11]) //print daya to the console to make sure we did it right
+    my_data.push(data2017[10][11]) //add the data to the my_data array 
+
+    console.log(data2017[11][12])  //looks at the one-ith array element {"4":88} extract data for key 10
+    my_data.push(data2017[11][12])  //add the data to the my_data array 
 
   }
 
@@ -118,11 +132,11 @@ function updateChart() {
 
         data: {
 
-            labels: ['September', 'October'],
+            labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August','September', 'October','November','December'],
 
             datasets: [{
 
-                label: 'Zagster Number of Rides Per Month in 2016',
+                label: 'Zagster Number of Rides Per Month in 2017',
 
                 backgroundColor: 'rgb(255, 99, 132)',
 
