@@ -6,6 +6,7 @@ const BASE_URL = "https://zagster-service.herokuapp.com"
 //funtion call means run the code
 $(updateGraph)
 //ARRAYS 
+var my_data = []
 let year = []
 let months2016= []
 let months2017=[]
@@ -60,7 +61,7 @@ console.log ("My name is " + person.name)
 console.log("My age is "+ person.age)
 console.log("My car model is " + person.car.model)
 
-if (person.age > 17){
+if (person.age > 50){
 alert("OK BOOMER")
 }
 
