@@ -150,8 +150,6 @@ function updateChart() {
 
         },
 
-
-
         // Configuration options go here
 
         options: {}
