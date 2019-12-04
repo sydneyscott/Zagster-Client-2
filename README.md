@@ -1,1 +1,2 @@
 Zagster-Client 2
+This is a vizulization project that shows how many zagster rides were taken per month in 2017. That data shown is pulled from a larger zagster data base. That data represented is pulled from rides per month. Specificly from the year 2017.
